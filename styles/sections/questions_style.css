@@ -1,0 +1,145 @@
+.questions {
+    width: 100%;
+    height: auto;
+    min-height: 1584px;
+    margin-bottom: 2px;
+    padding: 42px 49px;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-white);
+    color: var(--text-color-black);
+}
+
+.questions h2 {
+    font-size: var(--desktop-font-size-for-title-h2);
+    font-weight: 600;
+    padding-bottom: 65px;
+}
+
+.questions-header nav .questions-header-menu {
+    padding-bottom: 21px;
+    border-bottom: 1px solid #ececec;
+}
+
+.questions-header nav .questions-header-menu {
+    display: flex;
+    gap: 27px;
+}
+
+.questions-header nav .questions-header-menu .questions-header-item .questions-header-link {
+    font-size: 21px;
+    color: var(--text-color-gray-500);
+    font-weight: 600;
+    transition: var(--transition);
+}
+
+.questions-header nav .questions-header-menu .questions-header-item .questions-header-link:hover {
+    color: var(--text-color-gray-300);
+}
+
+.questions-wrap {
+    display: flex;
+    align-items: start;
+    gap: 49px;
+}
+
+.questions-left, .questions-right {
+    width: 50%;
+}
+
+.question-block {
+    padding-top: 47px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #ececec;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.question-block:last-of-type {
+    border-bottom: none;
+}
+
+.question-block h5 {
+    font-size: 21px;
+}
+
+.question-block .open-button {
+    width: 63px;
+    height: 63px;
+    border-radius: var(--border-radius-large);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color-gray-light);
+}
+
+.questions-right {
+    padding-top: 49px;
+}
+
+.questions-right .rent-wrap {
+    background-color: var(--background-color-gray-light);
+    padding: 32px 36px;
+    border-radius: var(--border-radius-low);
+}
+
+.questions-right .rent-wrap .rent-text h3 {
+    font-size: var(--desktop-font-size-for-title-h3);
+    line-height: 33px;
+    padding-bottom: 16px;
+}
+
+.questions-right .rent-wrap .rent-text .rent-text-description p {
+    color: var(--text-color-gray-500);
+    font-size: 19px;
+    line-height: 28px;
+}
+
+.rent-tag {
+    position: relative;
+    left: 5%;
+    rotate: -6deg;
+    width: 188px;
+    background-color: var(--background-color-blue-dark);
+    border-radius: 999px;
+    padding: 8px 13px;
+}
+
+.rent-tag span {
+    color: var(--text-color-white);
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+.rent-buttons {
+    padding-top: 4px;
+    display: flex;
+    gap: 4px;
+}
+
+.rent-buttons button {
+    border-radius: var(--border-radius-low);
+    background-color: var(--background-color-blue-light);
+    color: var(--text-color-blue);
+    height: 63px;
+    transition: var(--transition);
+}
+
+.rent-buttons button:active {
+    transform: scale(90%);
+}
+
+.rent-buttons .btn-question {
+    width: 499px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.rent-buttons .btn-whats, .btn-vk, .btn-telegram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+}

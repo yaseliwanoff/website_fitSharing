@@ -1,0 +1,63 @@
+.rules {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    background-color: var(--background-color-white);
+    color: var(--text-color-black);
+    border-radius: var(--border-radius-medium);
+    margin-bottom: 2px;
+}
+
+.rules-wrap {
+    padding: 49px 42px 0;
+}
+
+.rules h2 {
+    font-size: var(--desktop-font-size-for-title-h2);
+    line-height: 72px;
+    margin-bottom: 42px;
+}
+
+.rules-blocks > .rules-block:not(:last-child) {
+    border-right: 1px solid var(--border-color-gray-light);
+}
+
+.rules-block {
+    width: 518px;
+    height: 349px;
+    padding: 49px;
+    border-top: 1px solid var(--border-color-gray-light);
+}
+
+.rules-blocks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+}
+
+.rules .rules-block .rules-block-number {
+    width: 72px;
+    height: 72px;
+    display: flex;
+    font-size: 33px;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--border-radius-large);
+    background-color: var(--background-color-blue-light);
+    color: var(--text-color-blue);
+    margin-bottom: 18px;
+}
+
+.rules .rules-block .rules-block-title {
+    font-size: var(--desktop-font-size-for-title-h3);
+    margin-bottom: 20px;
+}
+
+.rules .rules-block .rules-block-description p {
+    font-size: 20px;
+    width: 402px;
+}
+
+.rules .rules-block .rules-block-description p > a {
+    color: var(--text-color-blue);
+}

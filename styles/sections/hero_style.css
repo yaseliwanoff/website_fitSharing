@@ -1,0 +1,142 @@
+.hero {
+    margin-bottom: 2px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    padding: 90px 49px 50px 49px;
+    justify-content: center;
+    margin-top: 13px;
+    width: 100%;
+    height: 687px;
+    border-radius: var(--border-radius-medium);
+    background-color: var(--background-color-blue-ultra-dark);
+}
+
+.hero .hero-images {
+    display: flex;
+    justify-content: space-between;
+    z-index: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+}
+
+.hero-wrap {
+    z-index: 10;
+}
+
+.hero .hero-title {
+    width: 1240px;
+    line-height: 107px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: var(--desktop-font-size-for-title-h1);
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hero .hero-title .italic {
+    font-style: italic;
+    font-size: var(--desktop-font-size-for-title-h1);
+}
+
+.hero .hero-wrap .hero-wrap-info-block {
+    position: absolute;
+    right: 18%;
+    bottom: 33%;
+    rotate: -15deg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    border-radius: var(--border-radius-large);
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    background-color: #00268d49;
+    border: 1px solid #ffffff5a;
+    transition: var(--transition);
+}
+
+.hero .hero-wrap .hero-wrap-info-block p {
+    width: 120px;
+    font-size: 18px;
+}
+
+.hero .hero-wrap .hero-wrap-info-block .bold {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.hero .hero-wrap .hero-wrap-info {
+    width: 100%;
+    margin-top: 9%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-wrap-info-right .tag {
+    padding: 12px 15px;
+    border-radius: var(--border-radius-low);
+    border: 1px solid #ffffff1e;
+    background-color: #00268d4b;
+    backdrop-filter: blur(25px);
+    -webkit-backdrop-filter: blur(25px);
+    transition: var(--transition);
+}
+
+.hero-wrap-info-right .tag:hover {
+    border: 1px solid white;
+}
+
+.hero .hero-wrap .hero-wrap-info .hero-wrap-info-righ p, span, .hero-wrap-info-righ p, span {
+    font-weight: 600;
+    font-size: var(--desktop-font-size-for-header-large-menu);
+}
+
+.hero .hero-wrap .hero-wrap-info .hero-wrap-info-right .hero-wrap-info-right-top {
+    margin-bottom: 10px;
+}
+
+.hero .hero-wrap .hero-wrap-info .hero-wrap-info-right .hero-wrap-info-right-top, .hero-wrap-info-right-bottom {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: var(--desktop-font-size-for-header-large-menu);
+}
+
+.hero .hero-wrap .hero-wrap-info .hero-wrap-info-left {
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+.hero .hero-wrap .hero-wrap-info .hero-wrap-info-left p {
+    width: 240px;
+    text-transform: uppercase;
+    text-align: right;
+    font-weight: 600;
+    font-size: var(--desktop-font-size-for-header-large-menu);
+    line-height: 18px;
+}
+
+.hero .hero-wrap .hero-wrap-info .hero-wrap-info-left .menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63px;
+    height: 63px;
+    border-radius: var(--border-radius-large);
+    border: 2px dashed #ffffff80;
+    transition: var(--transition);
+}
+
+.hero .hero-wrap .hero-wrap-info .hero-wrap-info-left .menu:hover {
+    border: 2px solid white;
+}

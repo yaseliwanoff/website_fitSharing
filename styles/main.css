@@ -1,0 +1,93 @@
+@import url("./devices.css");
+@import url("./layout.css");
+@import url("./reset.css");
+@import url("../assets/fonts/fonts.css");
+
+@import url("./sections/header_style.css");
+@import url("./sections/hero_style.css");
+@import url("./sections/hero_style.css");
+@import url("./sections/fee_style.css");
+@import url("./sections/offer_style.css");
+@import url("./sections/rules_style.css");
+@import url("./sections/simulators_style.css");
+@import url("./sections/try_style.css");
+@import url("./sections/complects_style.css");
+@import url("./sections/service_style.css");
+@import url("./sections/clients_style.css");
+@import url("./sections/test_style.css");
+@import url("./sections/questions_style.css");
+@import url("./sections/blog_style.css");
+@import url("./sections/footer_style.css");
+
+:root {
+    --text-color-white-low: #D2D4D8;
+    --text-color-white: #FFFFFF;
+    --text-color-gray-100: #CED0D5;
+    --text-color-gray-200: #A5A8B2;
+    --text-color-gray-300: #9DA1AB;
+    --text-color-gray-400: #838795;
+    --text-color-gray-500: #6D7280;
+    --text-color-green-dark: #34C759;
+    --text-color-black: #0A132D;
+    --text-color-blue: #0054F7;
+
+    --background-color-black: #0A132D;
+    --background-color-gray-light: #F8F8F9;
+    --background-color-gray-dark: #1E263E;
+    --background-color-white: #FFFFFF;
+    --background-color-green-light: #EBF9EE;
+    --background-color-green-dark: #34C759;
+    --background-color-blue-light: #EBF2FF;
+    --background-color-blue-dark: #0054F7;
+    --background-color-blue-ultra-dark: #00268D;
+    --background-color-red: #F11712;
+
+    --border-color-gray-light: #ECECEC;
+    --border-color-gray-dark: #A5A8B2;
+    
+    --font-name: "Inter";
+
+    --desktop-font-size-for-title-h1: 107px;
+    --desktop-font-size-for-title-h2: 70px;
+    --desktop-font-size-for-title-h3: 33px;
+    --desktop-font-size-for-title-h4: 26px;
+    --desktop-font-size-for-description: 19px;
+    --desktop-font-size-for-description-low: 14px;
+    --desktop-font-size-for-button: 18px;
+    --desktop-font-size-for-button-header: 15px;
+    --desktop-font-size-for-header-large-menu: 17px;
+    --desktop-font-size-for-header-low-menu: 15px;
+
+    --tablet-font-size-for-title-h1: 70px;
+    --tablet-font-size-for-title-h2: 50px;
+    --tablet-font-size-for-title-h3: 26px;
+    --tablet-font-size-for-title-h4: 20px;
+    --tablet-font-size-for-description: 16px;
+    --tablet-font-size-for-description-low: 13px;
+    --tablet-font-size-for-button: 16px;
+    --tablet-font-size-for-button-header: 14px;
+    --tablet-font-size-for-header-large-menu: 15px;
+    --tablet-font-size-for-header-low-menu: 13px;
+
+    --phone-font-size-for-title-h1: 45px;
+    --phone-font-size-for-title-h2: 35px;
+    --phone-font-size-for-title-h3: 20px;
+    --phone-font-size-for-title-h4: 16px;
+    --phone-font-size-for-description: 14px;
+    --phone-font-size-for-description-low: 11px;
+    --phone-font-size-for-button: 14px;
+    --phone-font-size-for-button-header: 12px;
+    --phone-font-size-for-header-large-menu: 13px;
+    --phone-font-size-for-header-low-menu: 11px;
+    
+    --breakpoint-mobile: 320px;
+    --breakpoint-tablet: 630px;
+    --breakpoint-desktop: 1554px;
+    --padding-container: 20px;
+
+    --transition: 0.2s ease;
+
+    --border-radius-large: 999px;
+    --border-radius-medium: 45px;
+    --border-radius-low: 13px;
+}

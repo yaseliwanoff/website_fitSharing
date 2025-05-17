@@ -1,0 +1,107 @@
+.header-top {
+    width: 100%;
+    padding-block: 17px;
+    /* border-top: 1px solid var(--border-color-gray-dark); */
+    background-color: var(--background-color-gray-dark);
+    color: var(--text-color-gray-200);
+}
+
+.header-top-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-top-nav .header-top-menu {
+    display: flex;
+    gap: 22px;
+}
+
+.header-top-nav .header-top-menu .header-top-item {
+    font-size: var(--desktop-font-size-for-header-low-menu);
+    transition: var(--transition);
+}
+
+.header-top-nav .header-top-menu .header-top-item:hover {
+    color: var(--text-color-gray-400);
+}
+
+.header-top-select-city {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.header-top-select-city img {
+    opacity: 0.6;
+}
+
+.header-bottom {
+    height: 81px;
+}
+
+.header-bottom-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-bottom-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-bottom-wrap nav .header-bottom-menu {
+    display: flex;
+}
+
+.header-bottom-wrap nav .header-bottom-menu .header-bottom-item a {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: var(--desktop-font-size-for-header-large-menu);
+    padding: 28px 18px;
+    color: var(--text-color-gray-100);
+    transition: var(--transition);
+}
+
+.header-bottom-wrap nav .header-bottom-menu .header-bottom-item:hover a {
+    color: var(--text-color-gray-200);
+}
+
+.header-bottom-buttons {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.header-bottom-buttons,
+.btn-search,
+.btn-profile,
+.btn-saved {
+    padding: 15px 7px;
+    transition: var(--transition);
+}
+
+.header-bottom-buttons .btn-card {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    background-color: var(--background-color-gray-dark);
+    color: var(--text-color-white-low);
+    border-radius: var(--border-radius-large);
+    padding: 18px 22px;
+    transition: var(--transition);
+}
+
+.header-bottom-buttons .btn-card:hover {
+    background-color: #161C2E;
+}
+
+.header-bottom-buttons,
+.btn-search:hover,
+.btn-profile:hover,
+.btn-saved:hover {
+    opacity: 0.8;
+}

@@ -1,0 +1,71 @@
+.try {
+    background-color: var(--background-color-white);
+    color: var(--text-color-black);
+    width: 100%;
+    height: 733px;
+    border-radius: var(--border-radius-medium);
+    padding: 51px 49px;
+    position: relative;
+    margin-bottom: 2px;
+}
+
+.try .question-count {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 137px;
+    color: var(--text-color-gray-200);
+    font-weight: 400;
+}
+
+.try h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 110px;
+    font-weight: 600;
+    font-style: normal;
+    line-height: 1;
+}
+
+.try h2 .btn-go {
+    background-color: var(--background-color-blue-dark);
+    width: 112px;
+    height: 112px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: var(--border-radius-large);
+    vertical-align: middle;
+}
+
+.try h2 .italic {
+    text-transform: uppercase;
+    font-size: 100px;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.try .try-warning {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    gap: 7px;
+    bottom: 51px;
+}
+
+.try .try-warning h6 {
+    color: var(--text-color-blue);
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.try .try-warning p {
+    text-align: center;
+    font-weight: 400;
+    font-size: 19px;
+    line-height: 28px;
+    width: 265px;
+}
