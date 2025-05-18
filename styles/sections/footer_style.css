@@ -47,9 +47,9 @@
     transition: var(--transition);
 }
 
-.footer-left .btn-select-trainer:active {
+/* .footer-left .btn-select-trainer:active {
     transform: scale(90%);
-}
+} */
 
 .light-circle {
     background-color: #1C74EB;
@@ -117,4 +117,40 @@
     font-size: 19px;
     font-weight: 600;
     color: var(--text-color-blue);
+}
+
+.footer-info {
+    position: absolute;
+    bottom: 42px;
+}
+
+.fooer-info-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-info-buttons {
+    position: absolute;
+    display: flex;
+    right: -150%;
+    gap: 10px;
+}
+
+.number-text {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    text-align: start;
+}
+
+.number img, .socials-button {
+    background-color: var(--background-color-blue-light);
+    border-radius: var(--border-radius-large);
+    width: 63px;
+    height: 63px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
 }
